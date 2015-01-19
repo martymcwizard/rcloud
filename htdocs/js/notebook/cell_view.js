@@ -46,7 +46,7 @@ function create_cell_html_view(language, cell_model) {
 
     var has_result = false;
 
-    var cell_status = $("<div class='cell-status'></div>");
+    var cell_status = $("<div class='cell-status nonselectable'></div>");
     var cell_status_left = $("<div class='cell-status-left'></div>");
     cell_status.append(cell_status_left);
 
